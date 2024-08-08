@@ -183,17 +183,21 @@ body{
     margin: 7px;
     border-radius: 5px; 
 }
+
 .header-form button{
     width: 95%;
     height: 11%;
     background-color: #FC456A;
     border: none;
     margin: 7px;
+    color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 .header-form button:hover{
     background-color: transparent;
     border: 1px solid black;
+    color: black;
 }
 .header-form button a:hover{
     color: #FC456A;
