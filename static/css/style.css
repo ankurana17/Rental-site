@@ -733,3 +733,77 @@ margin-top: 400px;
     margin: 0px 20px 0px 0px;
     cursor: pointer;
 }
+.login_form{
+    text-align: center;
+    font-size: x-large;
+    height: max-content;
+    width: 400px;
+    background-color: rgba(245, 241, 242, 0.2);
+    margin: 5% 50% 10% 35%;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.login_form input{
+    font-size: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.login_form h1{
+    padding-top: 100px;
+    color: white;
+}
+.body{
+    background-image: url("../image/background.jpg!sw800" );
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+.login{
+    height:  30px;
+    width: 100px;
+    background-color: #FC456A;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.create{
+    height:  30px;
+    width: 150px;
+    background-color: white;
+    color:#FC456A;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.create:hover{
+    background-color: transparent;
+    border: 2px solid #FC456A;
+    color: white;
+}
+.login_form a{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font-size: large;
+    color:black;
+}
+.create1{
+    background-color: transparent;
+    border:none;
+    font-size: large;
+    cursor: pointer;
+}
+.login_form a:hover{
+    color: white;
+}

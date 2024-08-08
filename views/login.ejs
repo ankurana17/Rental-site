@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body >
+    <div class="body"><br>
+    <div class="login_form"><form action="/login" method="post">
+        <h1>Login Page</h1><br><br>
+        email <br><input type="text" name="email" required placeholder="enter your email"><br><br>
+        password <br><input type="password" name="password" required placeholder="enter your password"><br><br>
+        <a href="/index"><button class="login">LOGIN</button></a><br><br><br>
+        <h2 align="center">
+            <% if(locals.message){
+                %>
+                <%=message%>
+                <%}%>
+        </h2>
+    </form>
+    <a href="/register"><button class="create">create an account</button></a>
+    
+</div>
+</div>
+</body>
+</html>
