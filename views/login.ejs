@@ -13,14 +13,14 @@
         email <br><input type="text" name="email" required placeholder="enter your email"><br><br>
         password <br><input type="password" name="password" required placeholder="enter your password"><br><br>
         <a href="/index"><button class="login">LOGIN</button></a><br><br><br>
-        <h2 align="center">
+        <h2 align="center" style="color: red;">
             <% if(locals.message){
                 %>
                 <%=message%>
                 <%}%>
         </h2>
     </form>
-    <a href="/register"><button class="create">create an account</button></a>
+    <a href="/register"><button class="create">create an account</button></a><br><br>
     
 </div>
 </div>

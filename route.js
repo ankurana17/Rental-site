@@ -87,5 +87,9 @@ router.use("/login",(req,res)=>
         }
     }
     )
+router.use("/about",(req,res)=>{
+        res.render("about")
+        res.end()
+})
 
 module.exports=router
