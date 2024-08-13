@@ -91,5 +91,13 @@ router.use("/about",(req,res)=>{
         res.render("about")
         res.end()
 })
+router.use("/apartment_rooms",(req,res)=>{
+    res.render("apartment_rooms")
+    res.end()
+})
+router.use("/blog",(req,res)=>{
+    res.render("blog")
+    res.end()
+})
 
 module.exports=router
