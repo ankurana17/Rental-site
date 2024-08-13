@@ -742,7 +742,7 @@ margin-top: 400px;
     font-size: x-large;
     height: max-content;
     width: 400px;
-    background-color: rgba(245, 241, 242, 0.2);
+    background-color: rgba(192, 102, 123, 0.2);
     margin: 5% 5% 10% 35%;
     border-radius: 10px;
     border: 1px solid white;
@@ -758,7 +758,7 @@ margin-top: 400px;
     color: white;
 }
 .body{
-    background-image: url("../image/back.jpg" );
+    background-image: url("../image/back.avif" );
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
