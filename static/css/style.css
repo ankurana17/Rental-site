@@ -846,11 +846,9 @@ margin-top: 400px;
     }
 }
 
-/* Apply zoom-in effect on image hover */
 .details-box-image img:hover, .rooms-grid-item-image img:hover, .news1 img:hover {
     animation: zoomIn 0.8s ease-out;
 }
-/* Keyframes for fade-in effect */
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -860,7 +858,6 @@ margin-top: 400px;
     }
 }
 
-/* Keyframes for slide-in effect */
 @keyframes slideIn {
     0% {
         transform: translateX(100%);
@@ -872,13 +869,11 @@ margin-top: 400px;
     }
 }
 
-/* Apply fade-in animation to header content */
 .header-content {
     animation: fadeIn 1.5s ease-in-out;
 }
 
-/* Apply slide-in animation to header form */
 .header-form {
     animation: slideIn 1.5s ease-in-out;
-    animation-delay: 0.5s; /* Delay for staggered effect */
+    animation-delay: 0.5s; 
 }
