@@ -90,7 +90,9 @@ body{
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    
 }
+
 .header-content{
     width: 60%;
     color: white;
@@ -103,6 +105,7 @@ body{
 .header-form{
     width: 40%;
     height: 600px;
+    
 }
 .header-content p{
     padding-top: 150px;
@@ -833,4 +836,49 @@ margin-top: 400px;
     background-color: transparent;
     color: white;
     cursor: pointer;
+}
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* Apply zoom-in effect on image hover */
+.details-box-image img:hover, .rooms-grid-item-image img:hover, .news1 img:hover {
+    animation: zoomIn 0.8s ease-out;
+}
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Keyframes for slide-in effect */
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply fade-in animation to header content */
+.header-content {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Apply slide-in animation to header form */
+.header-form {
+    animation: slideIn 1.5s ease-in-out;
+    animation-delay: 0.5s; /* Delay for staggered effect */
 }
