@@ -761,12 +761,13 @@ margin-top: 400px;
     color: white;
 }
 .body{
-    background-image: url("../image/back.avif" );
+    background-color: #f9738e;
     height: 100vh;
     width: 100%;
+    color: white;
+    background-image: url("../image/loginback.avif");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    color: white;
 }
 .login{
     height:  30px;
@@ -777,6 +778,20 @@ margin-top: 400px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+@keyframes slideIn{
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.login_form{
+    animation: slideIn 1.5s ease-in-out;
+    animation-delay: 0.5s;
 }
 .login:hover{
     background-color: transparent;
